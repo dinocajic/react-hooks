@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ClassCounter from './components/UseStateHook/ClassCounter';
 import HookCounter from './components/UseStateHook/HookCounter';
+import HookCounterPrevState from './components/UseStateHookPrevState/HookCounterPrevState';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>React Hooks Tutorials</h1>
       <ClassCounter />
       <HookCounter />
+      <HookCounterPrevState />
     </div>
   );
 }
